@@ -1,0 +1,64 @@
+# Build Folders
+bin/
+obj/
+out/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider IDE
+.idea/
+*.sln.iml
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# NuGet Packages
+*.nupkg
+packages/
+.nuget/
+# Uncomment if you have a packages folder at the solution level
+# **/packages/*
+
+# ASP.NET
+appsettings.Development.json
+appsettings.*.Local.json
+launchSettings.json
+
+# Logs
+*.log
+logs/
+*.tlog
+
+# Temporary Files
+*.tmp
+*.temp
+*.swp
+*.lock
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.pdb
+
+# Publish Output
+publish/
+*.publish.xml
+
+# User-specific files
+*.ide.*
+*.sdf
+*.opensdf
+*.dbmdl
+*.bak
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
