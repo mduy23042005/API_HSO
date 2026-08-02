@@ -25,7 +25,7 @@ This project was developed to:
 
 # Technologies Used
 
-## Framework
+## Engine
 
 - .NET Framework / .NET Core
 
@@ -37,6 +37,10 @@ This project was developed to:
 ## Backend
 
 - ASP.NET Web API
+
+## Database
+
+- Microsoft SQL Server
 
 ## Development Tools
 
