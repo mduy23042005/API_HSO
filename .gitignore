@@ -1,7 +1,15 @@
-# Build Folders
+# ==========================================
+# .NET / Visual Studio
+# ==========================================
+
+# Build output
 bin/
 obj/
-out/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
 
 # Visual Studio
 .vs/
@@ -10,55 +18,109 @@ out/
 *.userosscache
 *.sln.docstates
 
-# Rider IDE
+# Visual Studio Code
+.vscode/
+
+# Rider / JetBrains
 .idea/
 *.sln.iml
 
-# OS Files
-.DS_Store
-Thumbs.db
+# ==========================================
+# .NET generated files
+# ==========================================
 
-# NuGet Packages
-*.nupkg
-packages/
-.nuget/
-# Uncomment if you have a packages folder at the solution level
-# **/packages/*
-
-# ASP.NET
-appsettings.Development.json
-appsettings.*.Local.json
-launchSettings.json
-
-# Logs
-*.log
-logs/
-*.tlog
-
-# Temporary Files
-*.tmp
-*.temp
-*.swp
-*.lock
-
-# Test Results
-TestResults/
-*.trx
-*.coverage
-*.coveragexml
+*.dll
+*.exe
 *.pdb
+*.cache
+*.log
+*.tmp
+*.nupkg
 
-# Publish Output
+# ==========================================
+# NuGet
+# ==========================================
+
+packages/
+*.nuget.props
+*.nuget.targets
+
+# ==========================================
+# ASP.NET Core
+# ==========================================
+
+# Local development certificates
+*.pfx
+
+# Local secrets
+secrets.json
+
+# ==========================================
+# Configuration - local / sensitive
+# ==========================================
+
+# Ignore local development configuration
+appsettings.Development.json
+appsettings.Local.json
+
+# Uncomment if appsettings.json contains passwords / connection strings
+# appsettings.json
+
+# ==========================================
+# Entity Framework
+# ==========================================
+
+# EF migration build artifacts
+# (Do NOT ignore Migrations/ if you want migrations tracked)
+
+# ==========================================
+# OS
+# ==========================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ==========================================
+# Test / Coverage
+# ==========================================
+
+TestResults/
+coverage/
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# ==========================================
+# Publish
+# ==========================================
+
 publish/
-*.publish.xml
+Publish/
+*.publishsettings
 
-# User-specific files
-*.ide.*
-*.sdf
-*.opensdf
-*.dbmdl
+# ==========================================
+# Azure / deployment
+# ==========================================
+
+*.pubxml.user
+
+# ==========================================
+# Temporary files
+# ==========================================
+
 *.bak
-
-# Resharper
-_ReSharper*/
-*.DotSettings.user
+*.swp
+*.swo
+*.orig
