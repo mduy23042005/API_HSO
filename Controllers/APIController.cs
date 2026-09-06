@@ -7,10 +7,6 @@ public class APIController : ControllerBase
 {
     private HSOEntities db = new HSOEntities();
 
-    public APIController()
-    {
-    }
-
     #region Load basic data
     [HttpGet]
     [Route("api/load/Map/full")]
